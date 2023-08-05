@@ -433,3 +433,32 @@ body {
     height: 50%;
   } */
 }
+
+@media (max-width: 469px) {
+  html {
+    font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 40px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 60%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+}
