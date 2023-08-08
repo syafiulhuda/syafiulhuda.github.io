@@ -1,13 +1,13 @@
 :root {
   --pink: #f14e95;
   --bg: #0a0a0a;
-  --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 5000px;
+  /* min-height: 5000px; */
 }
 
 .hero::before {
@@ -27,7 +27,6 @@ body {
 .hero {
   position: relative;
   min-height: 100vh;
-  /* background-color: var(--bg); */
 }
 
 .hero h1,
@@ -37,8 +36,8 @@ body {
 }
 
 .hero h1 {
-  font-family: "Caveat", cursive;
-  font-size: 5rem;
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
 }
 
 .hero h4 {
@@ -71,8 +70,8 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: "Caveat", cursive;
-  font-size: 2.8rem;
+  font-family: "Sacramento", cursive;
+  font-size: 3.2rem;
   font-weight: bold;
 }
 
@@ -84,8 +83,8 @@ body {
   background-image: url(img/floral-pattern.png);
   background-size: cover;
   min-height: 100vh;
-  margin-top: -5rem;
-  padding-top: 5rem;
+  margin-top: -6rem;
+  padding-top: 15rem;
   padding-bottom: 5rem;
 }
 
@@ -94,8 +93,8 @@ body {
 .story h2,
 .gallery h2 {
   color: var(--pink);
-  font-family: "Caveat";
-  font-size: 4rem;
+  font-family: "Sacramento";
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -106,17 +105,17 @@ body {
 }
 
 .home p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #666;
 }
 
 .home .couple {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .home .couple h3 {
-  font-family: "Caveat";
-  font-size: 2.2rem;
+  font-family: "Sacramento";
+  font-size: 2.4rem;
   color: var(--pink);
 }
 
@@ -175,7 +174,7 @@ body {
 
 .info .card-footer {
   border-top: 1px solid whitesmoke;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 300;
 }
 
@@ -305,25 +304,21 @@ body {
 /*  */
 /*  */
 /* Media Query */
-/* extra large */
+/* Extra Large */
 @media (max-width: 1200px) {
   .home .heart {
     transform: translateX(-50%) translateY(45px);
-  }
-
-  .timeline li .timeline-panel {
-    width: 38%;
   }
 }
 
 /* laptop */
 @media (max-width: 992px) {
   html {
-    font-size: 80%;
+    font-size: 75%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 65px;
+    padding: 70px;
   }
 
   .home .heart {
@@ -363,16 +358,16 @@ body {
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 70%;
+    font-size: 65%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 55px;
+    padding: 60px;
     margin: 5px;
   }
 
   .mynavbar .nav-link {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -402,11 +397,11 @@ body {
 /* smartphone */
 @media (max-width: 576px) {
   html {
-    font-size: 65%;
+    font-size: 60%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 40px;
+    padding: 45px;
     margin: 3px;
   }
 
@@ -417,40 +412,6 @@ body {
 
   .timeline li .timeline-panel {
     width: 65%;
-    transform: translateX(-20px);
-  }
-
-  .timeline li .timeline-panel::before {
-    top: 30px;
-  }
-
-  .timeline li .timeline-panel::after {
-    top: 31px;
-  }
-
-  /* .gallery img {
-    width: 50%;
-    height: 50%;
-  } */
-}
-
-@media (max-width: 469px) {
-  html {
-    font-size: 65%;
-  }
-
-  .simply-countdown > .simply-section {
-    padding: 40px;
-    margin: 3px;
-  }
-
-  .timeline li .timeline-image {
-    width: 100px;
-    height: 100px;
-  }
-
-  .timeline li .timeline-panel {
-    width: 60%;
     transform: translateX(-20px);
   }
 
