@@ -240,9 +240,11 @@
               similique non soluta nulia asperiores voluptatem.
             </p>
           </div>
+
           <div class="row">
             <div class="col">
               <ul class="timeline">
+                <!-- Timeline 1 -->
                 <li>
                   <div
                     class="timeline-image"
@@ -264,6 +266,8 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Timeline 2 -->
                 <li class="timeline-inverted">
                   <div
                     class="timeline-image"
@@ -283,6 +287,8 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Timeline 3 -->
                 <li>
                   <div
                     class="timeline-image"
@@ -323,6 +329,7 @@
           <div
             class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
           >
+            <!-- Gallery 1 -->
             <div class="col mt-3">
               <a
                 href="img/gallery/foto-1.jpg"
@@ -331,12 +338,14 @@
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-1.jpg"
+                  src="img/gallery/thumbnail/foto-1-crop.jpg"
                   alt="fotbar 1"
                   class="img-fluid w-100 rounded"
                 />
               </a>
             </div>
+
+            <!-- Gallery 2 -->
             <div class="col mt-3">
               <a
                 href="img/gallery/foto-2.jpg"
@@ -345,12 +354,14 @@
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-2.jpg"
+                  src="img/gallery/thumbnail/foto-2-crop.jpg"
                   alt="fotbar 2"
                   class="img-fluid w-100 rounded"
                 />
               </a>
             </div>
+
+            <!-- Gallery 3 -->
             <div class="col mt-3">
               <a
                 href="img/gallery/foto-3.jpg"
@@ -359,49 +370,55 @@
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-3.jpg"
+                  src="img/gallery/thumbnail/foto-3-crop.jpg"
                   alt="fotbar 3"
                   class="img-fluid w-100 rounded"
                 />
               </a>
             </div>
+
+            <!-- Gallery 4 -->
             <div class="col mt-3">
               <a
-                href="img/gallery/foto-1.jpg"
+                href="img/gallery/foto-4.jpg"
                 data-toggle="lightbox"
                 data-caption="fotbar 4"
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-1.jpg"
+                  src="img/gallery/thumbnail/foto-4-crop.jpg"
                   alt="fotbar 4"
                   class="img-fluid w-100 rounded"
                 />
               </a>
             </div>
+
+            <!-- Gallery 5 -->
             <div class="col mt-3">
               <a
-                href="img/gallery/foto-2.jpg"
+                href="img/gallery/foto-5.jpg"
                 data-toggle="lightbox"
                 data-caption="fotbar 5"
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-2.jpg"
+                  src="img/gallery/thumbnail/foto-5-crop.jpg"
                   alt="fotbar 5"
                   class="img-fluid w-100 rounded"
                 />
               </a>
             </div>
+
+            <!-- Gallery 6 -->
             <div class="col mt-3">
               <a
-                href="img/gallery/foto-3.jpg"
+                href="img/gallery/foto-6.jpg"
                 data-toggle="lightbox"
                 data-caption="fotbar 6"
                 data-gallery="mygallery"
               >
                 <img
-                  src="img/gallery/thumbnail/foto-3.jpg"
+                  src="img/gallery/thumbnail/foto-6-crop.jpg"
                   alt="fotbar 6"
                   class="img-fluid w-100 rounded"
                 />
@@ -436,17 +453,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
-    <script>
-      const stickyTop = document.querySelector(".sticky-top");
-      const offcanvas = document.querySelector(".offcanvas");
-
-      offcanvas.addEventListener("show.bs.offcanvas", function () {
-        stickyTop.style.overflow = "visible";
-      });
-
-      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
-        stickyTop.style.overflow = "hidden";
-      });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
